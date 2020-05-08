@@ -1,0 +1,61 @@
+html
+{
+    scroll-behavior: smooth;
+}
+#header
+{
+    /* background-image: url("paul-gaudriault-cwy9yVBBPxg-unsplash.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255,255,255,0.6);
+}
+body
+{
+    background-image: url("dariusz-sankowski-mj2NwYH3wBA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.jumbotron 
+{ 
+    margin: 60px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+}
+.btn
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.navbar-brand
+{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+}
+.card
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.copyright
+{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: auto auto auto 0;
+}
+a:not([href])
+{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+}
