@@ -1,64 +1,67 @@
-body
+@media (min-width: 481px)
 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("dariusz-sankowski-mj2NwYH3wBA-unsplash.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-.blurb h2
-{
-    font-family: 'Lobster', cursive;
-    font-size: 2.8rem;
-    font-weight: 100;
-    color: wheat;
-    text-shadow: 0px 8px 6px rgba(0,0,0,0.4),0px 10px 16px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
-}
-.blurb p
-{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 100;
-    font-size: 1.5rem;
-    line-height: 2;
-    color: wheat;
-    text-shadow: 0px 8px 6px rgba(0,0,0,0.4),0px 10px 16px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
-}
-.content
-{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-#mainnavbar .navbar-brand
-{
-    font-family: 'Lobster', cursive;
-    font-weight: bolder;
-    font-size: 1.75rem;
-    letter-spacing: 2.5px;
-    color: wheat;
-}
-#mainnavbar .nav-link
-{
-    font-family: 'Lobster', cursive;
-    font-weight: bold;
-    color: wheat;
-    font-size: 1.2rem;
-    letter-spacing: 2.5px;
-}
-#mainnavbar
-{
-    background-color: black;
-}
-hr
-{
-    background-color: white;
-}
-.navbar-dark .navbar-toggler
-{
-    border-color: wheat;
-}
-.copyright
-{
-    font-family: 'Lobster', cursive;
-    font-weight: bold;
-    color: wheat;
-    letter-spacing: 2.5px;
-    text-shadow: 0px 8px 6px rgba(0,0,0,0.4),0px 10px 16px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    body
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("dariusz-sankowski-mj2NwYH3wBA-unsplash.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .blurb h2
+    {
+        font-family: 'Lobster', cursive;
+        font-size: 2.8rem;
+        font-weight: 100;
+        color: wheat;
+        text-shadow: 0px 8px 6px rgba(0,0,0,0.4),0px 10px 16px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    }
+    .blurb p
+    {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100;
+        font-size: 1.5rem;
+        line-height: 2;
+        color: wheat;
+        text-shadow: 0px 8px 6px rgba(0,0,0,0.4),0px 10px 16px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    }
+    .content
+    {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #mainnavbar .navbar-brand
+    {
+        font-family: 'Lobster', cursive;
+        font-weight: bolder;
+        font-size: 1.75rem;
+        letter-spacing: 2.5px;
+        color: wheat;
+    }
+    #mainnavbar .nav-link
+    {
+        font-family: 'Lobster', cursive;
+        font-weight: bold;
+        color: wheat;
+        font-size: 1.2rem;
+        letter-spacing: 2.5px;
+    }
+    #mainnavbar
+    {
+        background-color: black;
+    }
+    hr
+    {
+        background-color: white;
+    }
+    .navbar-dark .navbar-toggler
+    {
+        border-color: wheat;
+    }
+    .copyright
+    {
+        font-family: 'Lobster', cursive;
+        font-weight: bold;
+        color: wheat;
+        letter-spacing: 2.5px;
+        text-shadow: 0px 8px 6px rgba(0,0,0,0.4),0px 10px 16px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    }
 }
